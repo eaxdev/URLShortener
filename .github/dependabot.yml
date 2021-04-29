@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "22:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.codeborne:selenide
+    versions:
+    - 5.20.0
+    - 5.20.1
+    - 5.20.2
+    - 5.20.3
+  - dependency-name: com.github.database-rider:rider-spring
+    versions:
+    - 1.22.0
+  - dependency-name: org.springframework.boot:spring-boot-starter-parent
+    versions:
+    - 2.4.2
