@@ -57,7 +57,7 @@
         <dependency>
             <groupId>com.github.database-rider</groupId>
             <artifactId>rider-spring</artifactId>
-            <version>1.32.3</version>
+            <version>1.35.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
